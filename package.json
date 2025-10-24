@@ -1,0 +1,16 @@
+{
+  "name": "thaicamp-nextjs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "next dev -H 0.0.0.0 -p ${PORT:-3000}",
+  "build": "next build",
+  "start": "next start -H 0.0.0.0 -p ${PORT:-3000}"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+.hero { padding-top: 40px; }
+.grid {
+  display: grid; grid-template-columns: 1.1fr .9fr; gap: 28px; align-items: center;
+}
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}
+.actions { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+.ghost {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(0,0,0,.12);
+  background: #fff; color: var(--text); font-weight: 600;
+}
+.ghost:hover { background: #f3f4f6; }
+.heroImgWrap { border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
+.heroImg { object-fit: cover; width: 100%; height: auto; display: block; }
