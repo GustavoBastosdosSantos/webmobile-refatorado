@@ -34,7 +34,7 @@ export default function Header() {
         <nav style={{ display: 'flex', gap: 24 }}>
           <Link href="/">Início</Link>
           <Link href="/beneficios">Benefícios</Link>
-          <Link href="/planos">Planos</Link>
+          <Link href="/equipe">Nossa Equipe</Link>
           <Link href="/contato">Contato</Link>
         </nav>
       </div>
