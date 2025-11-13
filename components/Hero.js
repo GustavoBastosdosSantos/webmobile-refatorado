@@ -11,7 +11,8 @@ export default function Hero() {
             <h1 className="h1">Evolua com o Muay Thai</h1>
             <p className="lead">Condicionamento físico, foco mental e uma comunidade para crescer junto. Treinos para iniciantes e avançados.</p>
             <div className={styles.actions}>
-              <Link href="/contato" className="btn">Agendar aula experimental</Link>
+              <Link href="/agendar/experimental
+              " className="btn">Agendar aula experimental</Link>
               <a href="#planos" className={styles.ghost}>Ver planos</a>
             </div>
           </div>
