@@ -239,7 +239,7 @@ O site propõe impactar pessoas reais (ex.: comunidade interessada em condiciona
 
 ---
 
-## 12) Aprendizados (para o PDF final)
+## 12) Aprendizados
 
 - Como **componentizar** páginas grandes em pedaços reutilizáveis.
 - Como **organizar CSS** em Global + Modules para iniciantes.
